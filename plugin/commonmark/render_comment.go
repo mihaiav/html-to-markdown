@@ -13,7 +13,7 @@ func (c *commonmark) renderComment(_ converter.Context, w converter.Writer, n *h
 		// that were just added
 		w.WriteRune('\n')
 		w.WriteRune('\n')
-		_ = html.Render(w, n)
+		_ = html.Render(w, n, func(*html.Node) {})
 		w.WriteRune('\n')
 		w.WriteRune('\n')
 		return converter.RenderSuccess

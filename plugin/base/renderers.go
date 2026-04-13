@@ -19,7 +19,7 @@ func RenderAsHTML(ctx converter.Context, w converter.Writer, node *html.Node) co
 	if tagType == converter.TagTypeBlock {
 		w.WriteString("\n\n")
 	}
-	_ = html.Render(w, node) // TODO: what to do with error?
+	_ = html.Render(w, node, func(*html.Node) {}) // TODO: what to do with error?
 	if tagType == converter.TagTypeBlock {
 		w.WriteString("\n\n")
 	}

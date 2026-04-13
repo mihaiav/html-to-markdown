@@ -22,7 +22,7 @@ func Parse(t *testing.T, rawHTML string, startFrom string) *html.Node {
 	}
 
 	var b bytes.Buffer
-	err = html.Render(&b, doc)
+	err = html.Render(&b, doc, func(*html.Node) {})
 	if err != nil {
 		t.Error(err)
 	}
