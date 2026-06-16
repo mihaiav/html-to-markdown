@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/JohannesKaufmann/html-to-markdown/v2/internal/tester"
+	"github.com/mihaiav/html-to-markdown/v2/internal/tester"
 )
 
 func TestRenameFakeSpans(t *testing.T) {

@@ -2,7 +2,7 @@ package commonmark
 
 import (
 	"github.com/JohannesKaufmann/dom"
-	"github.com/JohannesKaufmann/html-to-markdown/v2/converter"
+	"github.com/mihaiav/html-to-markdown/v2/converter"
 	"golang.org/x/net/html"
 )
 

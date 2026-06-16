@@ -59,7 +59,7 @@ Here are some _cool features_:
 ### Installation
 
 ```bash
-go get -u github.com/JohannesKaufmann/html-to-markdown/v2
+go get -u github.com/mihaiav/html-to-markdown/v2
 ```
 
 _Or if you want a specific commit add the suffix `/v2@commithash`_
@@ -69,7 +69,7 @@ _Or if you want a specific commit add the suffix `/v2@commithash`_
 
 ### Usage
 
-[![Go V2 Reference](https://pkg.go.dev/badge/github.com/JohannesKaufmann/html-to-markdown/v2.svg)](https://pkg.go.dev/github.com/JohannesKaufmann/html-to-markdown/v2)
+[![Go V2 Reference](https://pkg.go.dev/badge/github.com/mihaiav/html-to-markdown/v2.svg)](https://pkg.go.dev/github.com/mihaiav/html-to-markdown/v2)
 
 ```go
 package main
@@ -78,7 +78,7 @@ import (
 	"fmt"
 	"log"
 
-	htmltomarkdown "github.com/JohannesKaufmann/html-to-markdown/v2"
+	htmltomarkdown "github.com/mihaiav/html-to-markdown/v2"
 )
 
 func main() {
@@ -104,8 +104,8 @@ import (
 	"fmt"
 	"log"
 
-	htmltomarkdown "github.com/JohannesKaufmann/html-to-markdown/v2"
-	"github.com/JohannesKaufmann/html-to-markdown/v2/converter"
+	htmltomarkdown "github.com/mihaiav/html-to-markdown/v2"
+	"github.com/mihaiav/html-to-markdown/v2/converter"
 )
 
 func main() {
@@ -132,9 +132,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/JohannesKaufmann/html-to-markdown/v2/converter"
-	"github.com/JohannesKaufmann/html-to-markdown/v2/plugin/base"
-	"github.com/JohannesKaufmann/html-to-markdown/v2/plugin/commonmark"
+	"github.com/mihaiav/html-to-markdown/v2/converter"
+	"github.com/mihaiav/html-to-markdown/v2/plugin/base"
+	"github.com/mihaiav/html-to-markdown/v2/plugin/commonmark"
 )
 
 func main() {
@@ -270,7 +270,7 @@ Download pre-compiled binaries for Linux, macOS or Windows from the [releases pa
 If you have Go installed, you can install the CLI directly using:
 
 ```bash
-go install github.com/JohannesKaufmann/html-to-markdown/v2/cli/html2markdown@latest
+go install github.com/mihaiav/html-to-markdown/v2/cli/html2markdown@latest
 ```
 
 This will download the source code and compile it into an executable in your Go binary directory (typically `$GOPATH/bin`).

@@ -5,10 +5,10 @@ import (
 	"unicode"
 
 	"github.com/JohannesKaufmann/dom"
-	"github.com/JohannesKaufmann/html-to-markdown/v2/converter"
-	"github.com/JohannesKaufmann/html-to-markdown/v2/internal/domutils"
-	"github.com/JohannesKaufmann/html-to-markdown/v2/internal/escape"
-	"github.com/JohannesKaufmann/html-to-markdown/v2/internal/textutils"
+	"github.com/mihaiav/html-to-markdown/v2/converter"
+	"github.com/mihaiav/html-to-markdown/v2/internal/domutils"
+	"github.com/mihaiav/html-to-markdown/v2/internal/escape"
+	"github.com/mihaiav/html-to-markdown/v2/internal/textutils"
 	"golang.org/x/net/html"
 )
 

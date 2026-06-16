@@ -7,10 +7,10 @@ import (
 	"sync"
 	"testing"
 
-	htmltomarkdown "github.com/JohannesKaufmann/html-to-markdown/v2"
-	"github.com/JohannesKaufmann/html-to-markdown/v2/converter"
-	"github.com/JohannesKaufmann/html-to-markdown/v2/plugin/base"
-	"github.com/JohannesKaufmann/html-to-markdown/v2/plugin/commonmark"
+	htmltomarkdown "github.com/mihaiav/html-to-markdown/v2"
+	"github.com/mihaiav/html-to-markdown/v2/converter"
+	"github.com/mihaiav/html-to-markdown/v2/plugin/base"
+	"github.com/mihaiav/html-to-markdown/v2/plugin/commonmark"
 	"golang.org/x/net/html"
 )
 

@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/JohannesKaufmann/html-to-markdown/v2/cli/html2markdown/cmd"
+	"github.com/mihaiav/html-to-markdown/v2/cli/html2markdown/cmd"
 )
 
 var (

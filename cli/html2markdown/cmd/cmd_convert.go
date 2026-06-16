@@ -6,11 +6,11 @@ import (
 	"fmt"
 
 	"github.com/JohannesKaufmann/dom"
-	"github.com/JohannesKaufmann/html-to-markdown/v2/converter"
-	"github.com/JohannesKaufmann/html-to-markdown/v2/plugin/base"
-	"github.com/JohannesKaufmann/html-to-markdown/v2/plugin/commonmark"
-	"github.com/JohannesKaufmann/html-to-markdown/v2/plugin/strikethrough"
-	"github.com/JohannesKaufmann/html-to-markdown/v2/plugin/table"
+	"github.com/mihaiav/html-to-markdown/v2/converter"
+	"github.com/mihaiav/html-to-markdown/v2/plugin/base"
+	"github.com/mihaiav/html-to-markdown/v2/plugin/commonmark"
+	"github.com/mihaiav/html-to-markdown/v2/plugin/strikethrough"
+	"github.com/mihaiav/html-to-markdown/v2/plugin/table"
 	"github.com/andybalholm/cascadia"
 	"golang.org/x/net/html"
 )
