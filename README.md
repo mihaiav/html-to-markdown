@@ -4,6 +4,23 @@ A robust html-to-markdown converter that transforms HTML (even entire websites) 
 
 Use the fully extendable [Golang library](#golang-library) or a quick [CLI command](#cli---using-it-on-the-command-line). Alternatively, try the [Online Demo](https://html-to-markdown.com/demo) or [REST API](https://html-to-markdown.com/api) to see it in action!
 
+> **Fork note — `github.com/mihaiav/html-to-markdown/v2`.**
+> This is a fork of [JohannesKaufmann/html-to-markdown](https://github.com/JohannesKaufmann/html-to-markdown)
+> v2.5.0, renamed to the module path `github.com/mihaiav/html-to-markdown/v2` and
+> carrying one patch so it compiles against the `github.com/mihaiav/net` fork of
+> `golang.org/x/net` (it passes that fork's extra `customElementRenderer` argument
+> to `html.Render`).
+>
+> **Consumers must add the matching replace to their `go.mod`** — otherwise this
+> package will not compile against upstream `golang.org/x/net`:
+>
+> ```
+> replace golang.org/x/net => github.com/mihaiav/net <version>
+> ```
+>
+> A Go module cannot apply a `replace` on behalf of its importers, so this has to
+> live in the consuming module's `go.mod`.
+
 Here are some _cool features_:
 
 - **Bold & Italic:** Supports bold and italic—even within single words.
